@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <!-- <head>
+        <link src="ValidAge_AgeVerificationPopup::js/view/script.js"/>
+        <link src="ValidAge_AgeVerificationPopup::ageVerify.phtml"/>
+    </head>-->
+    <body>
+        <referenceBlock name="head.additional">  
+        <!-- <referenceContainer name="after.body.start"> -->
+        <!-- <referenceContainer name="header-wrapper"> -->
+            <block class="ValidAge\AgeVerificationPopup\Block\AgeVerify" name="ageVerify" template="ValidAge_AgeVerificationPopup::ageverify.phtml" />
+            <!-- <block class="Magento\Framework\View\Element\Template" name="ageVerify" template="ValidAge_AgeVerificationPopup::ageVerify.phtml" /> -->
+        <!-- </referenceContainer> -->
+        </referenceBlock> 
+    </body>
+</page>
