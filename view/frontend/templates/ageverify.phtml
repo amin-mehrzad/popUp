@@ -1,13 +1,5 @@
 <?php 
-// echo '<script>alert("'.$block->publicKey().'");</script>';
-// echo "somethinggggggggggggggggggggggg";
 $address='https://validage.com/cache/'.$block->getValuesConfig() .".js";
 ?>
-<!-- <script>
-    window.valuesConfig = '<?php //echo $block->getValuesConfig(); ?>';
-    alert(window.valuesConfig);
-    console.log(window.valuesConfig);
-</script> -->
-
 <script src=<?php echo $address ?> type="text/javascript"></script>;
 

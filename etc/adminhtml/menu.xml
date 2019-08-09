@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="ValidAge_AgeVerificationPopup::validage" title="validage" module="ValidAge_AgeVerificationPopup" sortOrder="40" resource="ValidAge_AgeVerificationPopup::validage"/>
-        <add id="ValidAge_AgeVerificationPopup::validage_ageverificationpopup" title="Age Verification Popup" module="ValidAge_AgeVerificationPopup" sortOrder="20"   parent="ValidAge_AgeVerificationPopup::validage" resource="ValidAge_AgeVerificationPopup::validage_ageverificationpopup"/>
-        <!-- <add id="ValidAge_ScheduledImport::scheduledimport_Logs" title="Logs and Status" module="ValidAge_ScheduledImport" sortOrder="99" parent="ValidAge_ScheduledImport::validage_scheduledimport"  dependsOnModule="ValidAge_ScheduledImport" resource="ValidAge_ScheduledImport::scheduledimport_Logs" action="scheduledimport/Logs"/> -->
-        <add id="ValidAge_AgeVerificationPopup::validage_Ageconfiguration" title="Configuration" module="ValidAge_AgeVerificationPopup" sortOrder="99" parent="ValidAge_AgeVerificationPopup::validage_ageverificationpopup"  resource="ValidAge_AgeVerificationPopup::validage_configuration"  action="adminhtml/system_config/edit/section/ageverificationPopup_tab"/>
-        <!-- <add id="ValidAge_AgeVerificationPopup::configuration_setting" title="Setting" module="ValidAge_ScheduledImport" sortOrder="99" parent="ValidAge_ScheduledImport::validage_configuration"  resource="ValidAge_ScheduledImport::configuration_setting" action="adminhtml/system_config/edit/section/scheduledImport_tab"/> -->
+        <add id="ValidAge_AgeVerificationPopup::validage" title="ValidAge" module="ValidAge_AgeVerificationPopup" sortOrder="40" resource="ValidAge_AgeVerificationPopup::validage"/>
+        <add id="ValidAge_AgeVerificationPopup::validage_ageverification" title="Age Verification Popup" module="ValidAge_AgeVerificationPopup" sortOrder="20"   parent="ValidAge_AgeVerificationPopup::validage" resource="ValidAge_AgeVerificationPopup::validage_ageverification"/>
+        <add id="ValidAge_AgeVerificationPopup::validage_Ageconfiguration" title="Popup Configuration" module="ValidAge_AgeVerificationPopup" sortOrder="99" parent="ValidAge_AgeVerificationPopup::validage_ageverification"  resource="ValidAge_AgeVerificationPopup::validage_configuration"  action="adminhtml/system_config/edit/section/ageverificationPopup_tab"/>
     </menu>
 </config>

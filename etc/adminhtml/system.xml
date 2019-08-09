@@ -13,7 +13,11 @@
                 <field id="ageverificationPopup_publicKey" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Public Key</label>
                     <validate>required-entry</validate>
-                    <comment></comment>
+                    <comment><![CDATA[
+                            <a href="https://validage.com/business/register" target="_blank">
+                                If you don't have a key click here  to register and get your key for FREE.
+                            </a>
+                        ]]></comment>
                 </field>
             </group>
         </section>
